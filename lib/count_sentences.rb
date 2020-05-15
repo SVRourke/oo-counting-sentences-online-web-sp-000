@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.last == "." ? true : false
+    self[-1] == "." ? true : false
 
 
   end
