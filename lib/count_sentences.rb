@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.gsub(/[!?]/, ".").split(".").count
+    self.gsub!(/[!?]/, ".").split(".").count
     binding.pry
   end
 end
