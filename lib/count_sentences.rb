@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     if self.length > 1
-      self.gsub!(/[!?]/, ".").split(".").count
+      self.gsub!(/[!?]/, ".").split(". ").count
     else
       0
     end
