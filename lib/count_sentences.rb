@@ -4,8 +4,8 @@ class String
 
   def sentence?
     self.last == "." ? true : false
-      
-    
+
+
   end
 
   def question?
