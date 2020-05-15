@@ -19,3 +19,5 @@ class String
     # binding.pry
   end
 end
+
+puts "one! two. Three!".count_sentences
